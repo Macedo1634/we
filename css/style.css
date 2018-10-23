@@ -386,7 +386,9 @@ ul, ol, li {
 }
 
 .overlay {
-	background-image: linear-gradient(to right, #efc91b , #43b7af); /* Standard syntax (must be last) */
+	background-image: url(../images/table.jpg);
+	background-size: cover;
+	filter: brightness(70%);
 	opacity: 0.75;
 	position: absolute;
 	top: 0;
@@ -3496,8 +3498,8 @@ blockquote.pull-right {
 /* 24. FOOTER */
 
 footer {
-	background: #dbdbdb;
-	padding: 80px 0 60px;
+	background: #f2f2f2;
+	padding: 20px 0 20px;
 }
 
 footer .list-inline li {
