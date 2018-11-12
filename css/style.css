@@ -2493,7 +2493,7 @@ ul, ol, li {
 	top: 0;
 	left: 0px;
 	right: 0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.5);
 	text-align: center;
 	opacity: 0;
 	visibility: hidden;
@@ -2895,6 +2895,17 @@ ul, ol, li {
 }
 
 #contact-form button {
+	background: #efc91b;
+	border: 2px solid #efc91b;
+	color: #fff;
+	display: table;
+	margin: 0 auto;
+}
+
+#contact-form button:hover {
+	background: transparent;
+	border: 2px solid transparent;
+	color: #efc91b;
 	display: table;
 	margin: 0 auto;
 }
@@ -5991,4 +6002,8 @@ input:focus ~ label, input:valid ~ label , textarea:focus ~ label		{
 /* active state */
 input:focus ~ .bar:before, input:focus ~ .bar:after {
   width:50%;
+}
+
+.white-text{
+	color:#fff !important;
 }
