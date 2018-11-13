@@ -3301,7 +3301,8 @@ blockquote.pull-right {
 	text-align: center;
 	position: relative;
 	float: left;
-	width: 20%;
+	/*width: 20%;*/
+	width: 33%;
 }
 
 .process-step p {
