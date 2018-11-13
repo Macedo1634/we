@@ -88,9 +88,9 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var value = $(this).scrollTop();
         if (value > 80)
-            $(".logo-navbar").attr('src', 'C:/Users/bernardo.macedo/Desktop/Bernardo/we/site/html-files/images/logo2.png')
+            $(".logo-navbar").attr('src', 'images/logo2.png')
         else
-            $(".logo-navbar").attr('src', 'C:/Users/bernardo.macedo/Desktop/Bernardo/we/site/html-files/images/logo.png')
+            $(".logo-navbar").attr('src', 'images/logo.png')
     });
 
     // Product Feature
